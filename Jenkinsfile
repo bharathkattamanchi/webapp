@@ -3,8 +3,8 @@ pipeline{
      agent{ label'slave1' }
 
      tools{
-          maven = 'maven'
-	  jdk = 'java8'
+          maven 'maven'
+	  jdk 'java8'
      }
 
 	stages{
