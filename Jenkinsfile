@@ -1,6 +1,6 @@
 pipeline{
 
-     agent{ label'slave1' }
+     agent{ label'linux-build' }
 
      tools{
           maven 'maven'
